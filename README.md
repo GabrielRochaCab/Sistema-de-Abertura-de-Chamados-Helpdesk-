@@ -1,2 +1,11 @@
-# Sistema-de-Abertura-de-Chamados-Helpdesk-
-Sistema de abertura de chamados (helpdesk) fullstack com React, Node.js e PostgreSQL — dois perfis de usuário (cliente/atendente) com autenticação JWT.
+# Sistema de Abertura de Chamados
+
+Projeto fullstack (React + Node.js + PostgreSQL) — sistema de helpdesk com dois perfis de usuário (cliente e atendente).
+
+## Status
+Em desenvolvimento
+
+## Stack
+- Backend: Node.js, Express, PostgreSQL
+- Frontend: React (Vite)
+- Autenticação: JWT
