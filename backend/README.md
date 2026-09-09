@@ -38,6 +38,59 @@ PORT=3000
 
 npm run dev
 
+## Exemplos
+
+### Registrar usuário
+
+**Request:**
+
+POST /auth/register
+Content-Type: application/json
+
+{
+"nome": "Gabriel Teste",
+"email": "gabriel@teste.com",
+"senha": "123456",
+"role": "cliente"
+}
+
+
+**Response (201):**
+```json
+{
+  "id": 1,
+  "nome": "Gabriel Teste",
+  "email": "gabriel@teste.com",
+  "role": "cliente"
+}
+```
+
+### Login
+
+**Request:**
+
+POST /auth/login
+Content-Type: application/json
+
+{
+"email": "gabriel@teste.com",
+"senha": "123456"
+}
+
+
+**Response (200):**
+```json
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+  "usuario": {
+    "id": 1,
+    "nome": "Gabriel Teste",
+    "email": "gabriel@teste.com",
+    "role": "cliente"
+  }
+}
+```
+
 
 ## Rotas disponíveis
 
