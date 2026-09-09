@@ -62,9 +62,9 @@ Authorization: Bearer <token>
 ## Estrutura de pastas
 
 src/
-├── config/ → conexão com o banco (db.js)
-├── models/ → queries SQL, uma função por operação
-├── controllers/ → lógica de negócio e resposta HTTP
-├── middlewares/ → autenticação (authMiddleware.js)
-├── routes/ → definição das rotas
-└── server.js → ponto de entrada
+config/ → conexão com o banco (db.js)
+models/ → queries SQL, uma função por operação
+controllers/ → lógica de negócio e resposta HTTP
+middlewares/ → autenticação (authMiddleware.js)
+routes/ → definição das rotas
+server.js → ponto de entrada
