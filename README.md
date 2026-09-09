@@ -16,3 +16,7 @@ Projeto fullstack — sistema de helpdesk com dois perfis de usuário (cliente e
 - **Autenticação**: JWT + bcrypt
 
 ## Estrutura
+backend/ → API REST (ver backend/README.md para setup)
+frontend/ → aplicação React
+## Como rodar
+Veja as instruções específicas em [`backend/README.md`](./backend/README.md).
