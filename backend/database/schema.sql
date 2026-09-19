@@ -15,7 +15,7 @@ CREATE TABLE chamados (
     id SERIAL PRIMARY KEY,
     titulo VARCHAR(150) NOT NULL,
     descricao TEXT NOT NULL,
-    categoria VARCHAR(50),
+    categoria VARCHAR(50) NOT NULL,
     prioridade prioridade_chamado NOT NULL DEFAULT 'media',
     status status_chamado NOT NULL DEFAULT 'aberto',
     cliente_id INTEGER NOT NULL REFERENCES usuarios(id),
