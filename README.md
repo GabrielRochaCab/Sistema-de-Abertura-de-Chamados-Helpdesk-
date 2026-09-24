@@ -6,7 +6,7 @@ Projeto fullstack — sistema de helpdesk com dois perfis de usuário (cliente e
 
 🚧 Em desenvolvimento
 - ✅ Autenticação (registro, login, JWT)
-- 🚧 Chamados (criar, listar, assumir, mudar status)
+- ✅ Chamados (criar, listar, assumir, mudar status)
 - ⬜ Frontend
 
 ## Stack
